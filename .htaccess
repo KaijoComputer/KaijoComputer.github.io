@@ -2,6 +2,7 @@ Options -Indexes
 
 <IfModule mod_expires.c>
 ExpiresActive On
+ExpiresByType "access plus 1 days"
 ExpiresByType text/css "access plus 1 days"
 ExpiresByType image/gif "access plus 10 days"
 ExpiresByType image/jpg "access plus 10 days"
