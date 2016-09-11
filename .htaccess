@@ -1,6 +1,6 @@
 Options -Indexes
 
-<Files ~ "common.*$">
+<Files ~ ".(gif|jpe?g|png|ico)$">
 	Header set Cache-Control "max-age=864000, public"
 </Files>
 
