@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/*profile.html専用
+-----------------------------------------*/
+nav ul li a[href="profile.html"] {
+color: #000;
+background: #CC3;
+}
+
+/*プロフィール
+-----------------------------------------*/
+section div {
+margin: 0 0 20px 0;
+padding: 0 0 20px 0;
+position: relative;
+}
+section div:after {
+content: "";
+display: block;
+clear: both;
+}
+*+html section div {
+min-height: 1px;
+}
+section div h1 {
+font-size: 16px;
+font-weight: bold;
+padding: 0px 80px 0px 22px;
+color: #A24281;
+background: url(../img/icon1.png) no-repeat left top;
+}
+section div p {
+font-size: 14px;
+line-height: 1.6;
+}
+section div[class*="img"] {
+min-height: 165px;
+}
+section div[class*="img"] img {
+position: absolute;
+top: 0;
+}
+section div.imgL img {
+left: 0;
+}
+section div.imgR img {
+right: 0;
+}
+
+section div.imgL h1,
+section div.imgL p {
+margin-left: 235px;
+}
+section div.imgR h1,
+section div.imgR time,
+section div.imgR p {
+margin-right: 235px;
+}
+
+#data {
+min-height: 260px;
+}
+#data img {
+float: left;
+}
+
+table {
+border-spacing: 0;
+border-collapse: collapse;
+margin: 0;
+float: right;
+width: 320px;
+}
+
+td, th {
+border: 1px #FFF solid;
+padding: 8px;
+background: #E0E7EF;
+}
+
+th {
+text-align:left;
+white-space: nowrap;
+width: 1%;
+font-weight:normal;
+}
+.odd td, .odd th {
+background: #FFF;
+}
+
+
+
+

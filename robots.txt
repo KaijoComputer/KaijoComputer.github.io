@@ -1,0 +1,6 @@
+User-agent *
+Disallow: /common/
+Disallow: /img/
+Disallow: /googleb77a9bfb011a59d0.html
+Disallow: /img/production/2016/howtouse.html
+Disallow: /blog.html

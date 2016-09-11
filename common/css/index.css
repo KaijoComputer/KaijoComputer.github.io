@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/*index.html専用
+-----------------------------------------*/
+nav ul li a[href="index.html"] {
+color: #000;
+background: #CC3;
+}
+
+
+/* メイン画像 + テキスト
+-----------------------------------------*/
+#mainImg {
+margin: 0 0 20px 0;
+}
+#mainImg:after {
+content: "";
+display: block;
+clear: both;
+}
+*+html #mainImg {
+min-height: 1px;
+}
+#mainImg img {
+float: left;
+}
+#mainImg p {
+float: right;
+width: 180px;
+line-height: 1.6;
+}
+
+/* 更新履歴
+-----------------------------------------*/
+section#information > h1 {
+margin-bottom: 0px;
+}
+section#information a {
+text-decoration: none;
+}
+section#information article {
+position: relative;
+margin: 0 0 0 10px;
+padding: 20px 0 15px 85px;
+line-height: 1.2;
+background: url(../img/calendar.png) repeat-y left;
+border-bottom: 1px dotted #959595;
+}
+section#information a article h2,
+section#information article h2 {
+font-size: 14px;
+color: #0078BF;
+font-weight: bold;
+margin-bottom: 3px
+}
+section#information a article p,
+section#information article p {
+color: #000;
+}
+section#information a:hover article h2 {
+text-decoration: underline;
+}
+section#information a article time,
+section#information article time {
+margin: 0;
+text-align: left;
+position: absolute;
+top: 8px;
+left: -12px;
+width: 80px;
+height: 30px;
+line-height: 35px;
+text-indent: 12px;
+color: #FFF;
+font-size: 10px;
+font-weight: bold;
+font-family: Arial,sans-serif;
+background: url(../img/calendar1.png);
+}
+section#information a article time span,
+section#information article time span {
+font-weight: normal;
+margin-right: 5px;
+}
+
+
+/* オススメコンテンツ
+-----------------------------------------*/
+section#pickup {
+margin: 0 -30px 0 0;
+}
+section#pickup article {
+float: left;
+width: 215px;
+margin: 0 27px 15px 0;
+}
+section#pickup article img {
+margin-bottom: 3px;
+}
+section#pickup article h2,
+section#pickup a article h2 {
+font-size: 14px;
+font-weight: bold;
+color: #0078Bf;
+text-decoration: none;
+margin-bottom: 3px;
+}
+section#pickup a:hover article h2 {
+text-decoration: underline;
+}
+
+section#pickup article p,
+section#pickup a article p {
+font-size: 12px;
+color: #000;
+text-decoration: none;
+}
+section#pickup a:hover article p {
+text-decoration: underline;
+}
+

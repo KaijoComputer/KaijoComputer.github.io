@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+/*全ページ共通
+-----------------------------------------*/
+* {
+margin: 0;
+padding: 0;
+}
+li {
+list-style: none;
+}
+a img {
+border: none;
+}
+html {
+height: 100%;
+min-width: 1010px;
+position: relative;
+background: #00659F url(../img/back01.png) no-repeat center top;
+}
+
+body {
+font-size: 14px;
+color: #000;
+line-height: 1.2;
+font-family: "Hiragino Kaku Gothic Pro","メイリオ","ＭＳ Ｐゴシック",sans-serif;
+width: 100%;
+min-height: 100%;
+background: url(../img/back04.png) repeat-x bottom;
+}
+
+*+html body {
+background: url(../img/back02.png) repeat-y center top;
+}
+#wrapper {
+width: 1010px;
+min-height: 100%;
+position: relative;
+margin: 0 auto;
+}
+#wrapper:before {
+content: "";
+display: block;
+background: url(../img/back02.png) repeat-y left;
+width: 1010px;
+position: absolute;
+top: 102px;
+bottom: 0;
+left: 0;
+}
+#wrapper:after {
+content: "";
+display: block;
+width: 255px;
+height: 525px;
+background: url(../img/back03.png) repeat-x bottom;
+position: absolute;
+bottom: 0;
+left: 0;
+z-index: 1;
+}
+a {
+color: #00F;
+}
+a:hover {
+color: #009;
+}
+hr, .clear {
+border: none;
+height: 0;
+overflow: hidden;
+clear: both;
+}
+header, footer, section, article, figure ,figcaption {
+display: block;
+}
+
+/*ヘッダー
+-----------------------------------------*/
+body header {
+width: 1010px;
+height: 102px;
+background: url(../img/header.png) no-repeat left top;
+}
+
+/* ロゴ周り */
+body header h1 {
+position: absolute;
+font-family: sans-serif;
+font-weight: normal;
+color: #FFF;
+font-size: 50px;
+left: 40px;
+top: 13px;
+}
+body header h1 a {
+text-decoration: none;
+color: #EEE;
+}
+body header h1 a:hover {
+color: #FFF;
+}
+
+/* 挨拶 */
+body header h2 {
+position: absolute;
+top: 20px;
+right: 25px;
+font-size: 18px;
+color: #FFF;
+}
+body header p {
+position: absolute;
+top: 45px;
+right: 25px;
+font-size: 12px;
+color: #FFF;
+}
+
+/*カラム
+-----------------------------------------*/
+#navigation {
+width: 220px;
+float: left;
+background: url(../img/nav_back.png) no-repeat left top;
+margin: 0 0 50px 20px;
+padding: 15px 0 0 15px;
+position: relative;
+z-index: 3;
+}
+
+#contents {
+margin: 15px 38px 50px 0;
+width: 700px;
+float: right;
+position: relative;
+z-index: 3;
+}
+
+#contents:after {
+content: "";
+display: block;
+clear: both;
+}
+
+*+html #contents {
+min-height: 1px;
+}
+
+
+/*関連リンク
+-----------------------------------------*/
+aside h4 {
+margin: 30px 0 20px 10px;
+color: #666;
+font-size: 16px;
+font-weight: bold;
+}
+aside ul {
+width: 160px;
+margin: 0 auto;
+}
+aside ul li {
+margin-bottom: 20px;
+}
+aside ul li img {
+}
+aside ul li p {
+display: block;
+text-decoration: none;
+color: #CCC;
+font-size: 10px;
+}
+aside ul li a {
+text-decoration: none;
+color: #FFF;
+font-size: 12px;
+}
+aside ul li a:hover {
+color: #FFF;
+text-decoration: underline;
+}
+
+
+/* #navigation：ナビカラム:メニュー
+-----------------------------------------*/
+nav > ul {
+margin-bottom: 30px;
+}
+nav ul li {
+position: relative;
+}
+nav ul li a {
+display: block;
+text-decoration: none;
+border-bottom: 1px solid #FFF;
+background: #000;
+}
+nav ul li a {
+padding: 20px;
+color: #FFF;
+font-weight: bold;
+font-family: Arial,sans-serif;
+font-size: 16px;
+}
+nav ul li a:hover {
+color: #000;
+background: #CC3;
+}
+nav ul ul {
+display: none;
+}
+nav ul li:hover ul {
+display: block;
+position: absolute;
+top: 0;
+left: 220px;
+min-width: 220px;
+border-left: 1px solid #FFF;
+}
+nav ul li li a {
+opacity: .7;
+}
+nav ul li li a:hover {
+background: #BB0;
+opacity: .8;
+}
+
+
+/* #contents：ページ内容
+-----------------------------------------*/
+section:after {
+content: "";
+display: block;
+clear: both;
+}
+*+html section {
+min-height: 1px;
+}
+section {
+margin-bottom: 30px;
+}
+
+
+/* #contents：見出し
+-----------------------------------------*/
+#contents > section > h1 {
+background: url(../img/midashi1.png) no-repeat left bottom;
+font-size: 16px;
+margin-bottom: 1em;
+font-family: Arial,"Hiragino Kaku Gothic Pro","メイリオ","ＭＳ Ｐゴシック",sans-serif;
+font-weight: bold;
+position: relative;
+padding: 10px 0 10px 35px;
+min-height: 19px;
+}
+
+section > h1 + p {
+margin: 1em 0 3em 0;
+line-height: 1.6;
+}
+
+section article h1 {
+font-size: 16px;
+font-weight: normal;
+padding: 0px 80px 0px 15px;
+background: url(../img/icon2.png) no-repeat 2px 6px;
+margin-bottom: 5px;
+}
+section article time {
+font-size: 10px;
+line-height: 1.1;
+text-align: right;
+display: block;
+margin: -18px 0 10px;
+color: #999;
+}
+
+section section > h1 {
+background: url(../img/icon1.png) no-repeat left bottom;
+font-size: 16px;
+margin-bottom: 15px;
+padding: 0 0 0 25px;
+color: #333;
+}
+
+/*フッター
+-----------------------------------------*/
+footer {
+clear: both;
+height: 100px;/* footer small + 上スペースの高さ */
+}
+*+html footer {
+clear: none;
+width: 940px;
+}
+
+footer small {
+font-family: Arial,"Hiragino Kaku Gothic Pro","メイリオ","ＭＳ Ｐゴシック",sans-serif;
+background: #1C1C1C url(../img/footer.png) no-repeat right top;
+display: block;
+font-size: 10px;
+color: #CCC;
+line-height: 60px;
+text-align: right;
+padding-right: 65px;
+height: 60px;
+width: 655px;
+position: absolute;
+bottom: 0;
+right: 35px;
+z-index: 1000;
+}
+
+/*noscript
+-----------------------------------------*/
+p#noscript {
+padding: 30px;
+color: red;
+border: 3px solid #F00;
+background: #FFF;
+font-weight: bold;
+position: absolute;
+right: 0;
+top: 0;
+z-index: 100;
+}
+
+/*追加 パン屑リスト
+-----------------------------------------*/
+
+/* [ul] */
+.syncer-brcb {
+	overflow: hidden ;
+	list-style-type: none ;
+}
+
+/* [li] */
+.syncer-brcb li {
+	float: left ;
+	font-weight: 700 ;
+}
+
+/* [>] */
+.syncer-brcb li:after {
+	content: ">" ;
+	padding: 0 8px ;
+	font-weight: 400 ;
+}
+
+/* 一番最後の[li] */
+.syncer-brcb li:last-child:after {
+	content: none ;
+}

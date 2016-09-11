@@ -1,0 +1,1 @@
+﻿document.write('<footer> <small>Copyright © 2016 kaijo computer club.</small> </footer>');
