@@ -6,7 +6,7 @@ ExpiresByType text/css "access plus 1 days"
 ExpiresByType image/gif "access plus 10 days"
 ExpiresByType image/jpg "access plus 10 days"
 ExpiresByType image/jpeg "access plus 10 days"
-ExpiresByType image/png "access plus 1 weeks"
+ExpiresByType image/png "access plus 864000 seconds"
 ExpiresByType application/x-javascript "access plus 10 days"
 </IfModule>
 
