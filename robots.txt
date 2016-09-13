@@ -1,5 +1,2 @@
 User-agent:*
-Disallow: /common/colorbox/
-Disallow: /common/css/
-Disallow: /common/js/
 Disallow: /googleb77a9bfb011a59d0.html
