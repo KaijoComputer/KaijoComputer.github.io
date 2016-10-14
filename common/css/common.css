@@ -254,6 +254,9 @@ position: relative;
 padding: 10px 0 10px 35px;
 min-height: 19px;
 }
+#contents > section {
+width: 700px;
+}
 
 section > h1 + p {
 margin: 1em 0 3em 0;
