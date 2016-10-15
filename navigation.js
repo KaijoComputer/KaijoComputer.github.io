@@ -7,7 +7,7 @@ document.write('<li><a href="/production/index.html">作品</a>');
 document.write('</li>');
 document.write('<li><a href="/profile.html">コンピューター部について</a></li>');
 document.write('</ul></nav><aside>');
-document.write('<ul><li><a href="https://m.facebook.com/kaijokonbu" target="_blank"><img src="/img/facebook.png" alt="facebook" width="85" height="15"></a></li></ul>');
+document.write('<ul><li><a href="https://m.facebook.com/kaijokonbu" target="_blank"><img src="/img/facebook.png" alt="facebook" width="170" height="30"></a></li></ul>');
 document.write('</aside>');
 document.write('<a class="twitter-timeline" data-lang="ja" data-width="220" data-height="500" data-theme="dark" href="https://twitter.com/KaijoComputer">Tweets by KaijoComputer</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 document.write('</div>');
