@@ -1,4 +1,4 @@
-document.write('<div id="navigation"><nav><ul>');
+﻿document.write('<div id="navigation"><nav><ul>');
 document.write('<li><a href="/index.html">ホーム</a></li>');
 document.write('<li><a href="/blog/index.html">活動記</a></li>');
 document.write('<li><a href="/documents/index.html">資料</a></li>');
@@ -6,6 +6,7 @@ document.write('<li><a href="/production/index.html">作品</a>');
     document.write('<ul><li><a href="/production/2016/index.html">2016年度</a></li></ul>');
 document.write('</li>');
 document.write('<li><a href="/profile.html">コンピューター部について</a></li>');
+document.write('<li><a href="/performance/index.html">大会成績</a></li>');
 document.write('</ul></nav><aside>');
 document.write('<ul><li><a href="https://m.facebook.com/kaijokonbu" target="_blank"><img src="/img/facebook.png" alt="facebook" width="170" height="30"></a></li></ul>');
 document.write('</aside>');
