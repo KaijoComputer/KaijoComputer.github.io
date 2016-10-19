@@ -1,0 +1,32 @@
+﻿@charset "UTF-8";
+
+table.table_a {
+border: 2px #808080 solid;
+border-collapse:collapse;
+width: 500px;
+}
+table.table_a th,td
+{
+border: 1px #808080 solid;
+padding: 2px 4px;
+}
+table.table_a th {
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+color: #ED760A;
+}
+table.table_a th.h1 {
+width:20%
+}
+table.table_a th.h2 {
+width:50%
+}
+table.table_a th.h3 {
+width:30%
+}
+table.table_a td {
+text-align:left;
+font-size:12px;
+color: #666;
+}

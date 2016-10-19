@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+section#pickup article p {
+font-size: 20px;
+color: #000;
+text-decoration: none;
+}
+section#pickup article h2 {
+font-size: 20px;
+}

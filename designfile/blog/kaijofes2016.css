@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+table#time_table {
+border-top: 1px #959595 dotted;
+border-spacing: 0;
+border-collapse: collapse;
+width: 500px;
+}
+table#time_table td,
+table#time_table th {
+border-bottom: 1px #959595 dotted;
+font-size: 18px;
+line-height: 1.4;
+vertical-align: middle;
+}
+table#time_table th {
+text-align:left;
+white-space: nowrap;
+width: 1%;
+font-weight: bold;
+color: #ED760A;
+}
+table#time_table td {
+width: 40%;
+color: #666;
+}
