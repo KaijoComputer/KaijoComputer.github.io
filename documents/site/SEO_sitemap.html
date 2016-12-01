@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83917768-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<head>
+<meta charset="UTF-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>サイトの管理-サイトマップ編 | 海城コンピューター部活動記</title>
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon">
+<meta name="Keywords" content="サイトマップ,sitemap,SEO">
+<meta name="Description" content="サイトの管理-サイトマップ編">
+</head>
+<link rel="stylesheet" href="/common/css/common.min.css" type="text/css">
+<link rel="stylesheet" href="/common/css/index.min.css" type="text/css">
+
+<script type="text/javascript" src="/common/js/jquery.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.flatheights.min.js"></script>
+
+<script>
+jQuery(function() {
+$('#pickup article').flatHeights();
+});
+</script>
+<!--[if lt IE 9]>
+<script src="common/js/html5shiv.js"></script>
+<![endif]-->
+
+<body id="top">
+    <div id="wrapper">
+        <noscript>
+            <p id="noscript">
+                このWebサイトはJavaScriptを使用しています。
+                <!--[if lt IE 9]><br>
+                Internet Explorer 7／8をお使いの方はJavaScriptをオンにしてご覧ください。<![endif]-->
+            </p>
+        </noscript>
+
+        <script src="/header.js"></script>
+
+        <div id="contents">
+           <ul class="syncer-brcb">
+           <li><a href="/index.html" itemprop="url"><span itemprop="title">ホーム</span></a></li>
+           <li><a href="/documents/index.html" itemprop="url"><span itemprop="title">資料</span></a></li>
+           <li><a href="/documents/site/index.html" itemprop="url"><span itemprop="title">サイトの管理</span></a></li>
+           <li><span itemprop="title">サイトマップ編</span></li>
+           </ul>
+           <br><hr>
+
+            <section id="pickup">
+            <h1>サイトの管理-サイトマップ編</h1>
+            このサイトの管理方法です。身内向けだから見た目が悪いのは勘弁...。<br><br><br>
+            
+            ここではGoogle等検索エンジンで検索したときに上位に表示されるようにする方法を書きます。<br>
+            このあたりの事はすぐ変わるので、これが2016年12月時点の情報ということを頭に入れて読んでください。<br>
+            あと、素人が書いているので、間違っている可能性が十分あります。<br>
+            詳しい情報は「SEO対策」あたりで検索すると出てくると思います。<br>
+            <br>
+            SEO対策の一つとして、サイトマップを作るというものがあります。ここではそのやり方を紹介します。<br><br>
+            <h2>サイトマップとは</h2>
+            サイトマップとはサイトの中にどんなファイルがあるのかを検索エンジンに教えるためのものです。<br>
+            検索エンジンはインターネット上の膨大な数のサイトを処理しないといけないので、一つのサイトの解析にあまり時間をかけられません。<br>
+            そこで、検索エンジンが効率よくサイトの内容を把握できるようにするために使います。<br><br>
+            <h2>サイトマップの作り方</h2>
+            とりあえずやり方を一つ書いておきます。もちろんこの他にもいろんな生成ツールがありますし、一応手書きもできます。<br>
+            <a href="http://www.sitemapxml.jp/" target="_blank">サイトマップを作成-自動生成ツール「sitemap.xml Editor」</a><br>
+            ここではこののサイトを使ってサイトマップを作りたいと思います。<br>
+            ・注意：この操作をやる前に、サイトマップに反映させたいhtmlがすべて<b>masterにアップロードされている</b>ことを確認してください。<br>
+            「PCサイトマップ」を選択し、下の図のようにここのサイトの<b>トップの</b>URLを入れます。
+            <img src="/img/documents/sitemap/sitemap_xml_editor1.png" alt="sitemap_xml_editor1"><br>
+            「サイトマップ作成」を押します。<br>
+            「作成されたサイトマップXMLファイルをダウンロード」のから、sitemap.xmlをダウンロードし、「/sitemap.xml」を置き換えます。<br><br>
+            最後にこれをアップロードすれば完了です。お疲れさまでした。
+            <!--
+            <h2>サイトマップの登録</h2>
+            ・注意：この操作をやる前に、<b>確実にsitemap.xmlをmasterにアップロードしてください</b>。<br>
+            -->
+           </section>
+        </div>
+
+        <script src="/navigation.js"></script>
+
+        <script src="/footer.js"></script>
+    </div>
+
+</body>
+
+</html>
