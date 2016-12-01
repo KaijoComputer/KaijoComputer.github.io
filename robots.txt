@@ -1,2 +1,3 @@
 User-agent:*
 Disallow: /googleb77a9bfb011a59d0.html
+Sitemap: https://kaijocomputer.github.io/sitemap.xml
