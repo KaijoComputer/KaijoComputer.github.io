@@ -12,11 +12,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name=viewport content="width=device-width, initial-scale=1">
-<title>サイトの管理 | 海城コンピューター部活動記</title>
+<title>サイトの管理-パフォーマンス改善編 | 海城コンピューター部活動記</title>
 <link rel="shortcut icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon">
 <link rel="icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon">
-<meta name="Keywords" content="">
-<meta name="Description" content="サイトの管理">
+<meta name="Keywords" content="パフォーマンス,サイト">
+<meta name="Description" content="サイトの管理-パフォーマンス改善編">
 </head>
 <link rel="stylesheet" href="/common/css/common.min.css" type="text/css">
 <link rel="stylesheet" href="/common/css/index.min.css" type="text/css">
@@ -49,44 +49,24 @@ $('#pickup article').flatHeights();
            <ul class="syncer-brcb">
            <li><a href="/index.html" itemprop="url"><span itemprop="title">ホーム</span></a></li>
            <li><a href="/documents/index.html" itemprop="url"><span itemprop="title">資料</span></a></li>
-           <li><span itemprop="title">サイトの管理</span></li>
+           <li><a href="/documents/site/index.html" itemprop="url"><span itemprop="title">サイトの管理</span></a></li>
+           <li><span itemprop="title">パフォーマンス改善編</span></li>
            </ul>
            <br><hr>
 
-            <section id="information">
-                <h1>サイトの管理</h1>
-
-                <a href="../git/introduction.html">
-                    <article>
-                        <time></time>
-                        <h2>git導入編</h2>
-                        <p>バージョン管理システム、gitを導入しましょう。</p>
-                    </article>
-                </a>
-                <a href="setting.html">
-                    <article>
-                        <time></time>
-                        <h2>初期設定編</h2>
-                        <p>サイトのレポジトリをクローンしましょう。</p>
-                    </article>
-                </a>
-                <a href="PageSpeed.html">
-                    <article>
-                        <time></time>
-                        <h2>パフォーマンス改善編</h2>
-                        <p>サイトのパフォーマンスを改善しよう。</p>
-                    </article>
-                </a>
-                <a href="SEO_sitemap.html">
-                    <article>
-                        <time></time>
-                        <h2>サイトマップ編</h2>
-                        <p>サイトマップで検索の上位に来るようにしよう。</p>
-                    </article>
-                </a>
-            </section>
-            <br>身内向けだから見た目が悪いのは勘弁...。
-
+            <section id="pickup">
+            <h1>サイトの管理-パフォーマンス改善編</h1>
+            このサイトの管理方法です。身内向けだから見た目が悪いのは勘弁...。<br><br><br>
+            
+            ページをアップロードしたら、<a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a>にアクセスしましょう。<br>
+            <img src="/img/documents/PageSpeed/PageSpeedInsights1.png" alt="PageSpeedInsights1"><br>
+            上のようにアップロードしたページのURLを入れて、「分析」を押します。<br>
+            いろいろ問題点が出てきますが、とりあえず一番下の「JavaScript、CSS リソース」をクリックしてダウンロードします。<br>
+            <img src="/img/documents/PageSpeed/PageSpeedInsights2.png" alt="PageSpeedInsights2"><br>
+            ダウンロードしたものを置き換えて再度アップロードしましょう。これで、「画像を最適化する」は解決できます。<br>
+            （ちなみに他のものも解決できるならしてほしいですが）<br>
+            「ブラウザのキャッシュを活用する」はgithubを使っている限り解決できないと思うので放置でよいです。
+           </section>
         </div>
 
         <script src="/navigation.js"></script>
