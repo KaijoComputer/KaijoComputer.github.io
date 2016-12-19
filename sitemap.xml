@@ -5,67 +5,73 @@
 <url>
   <loc>https://kaijocomputer.github.io/</loc>
   <priority>1.0</priority>
-  <lastmod>2016-12-01T20:47:02+09:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://kaijocomputer.github.io/blog/4_prog_training.html</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-12-01T20:47:02+09:00</lastmod>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://kaijocomputer.github.io/performance/index.html</loc>
   <priority>0.8</priority>
-  <lastmod>2016-12-01T20:47:02+09:00</lastmod>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://kaijocomputer.github.io/blog/4_prog_training.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://kaijocomputer.github.io/blog/3_kaijofes2016-result.html</loc>
   <priority>0.8</priority>
-  <lastmod>2016-12-01T20:47:02+09:00</lastmod>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://kaijocomputer.github.io/production/2016/index.html</loc>
   <priority>0.8</priority>
-  <lastmod>2016-12-01T20:47:02+09:00</lastmod>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://kaijocomputer.github.io/index.html</loc>
   <priority>0.7</priority>
-  <lastmod>2016-12-01T20:47:02+09:00</lastmod>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://kaijocomputer.github.io/blog/index.html</loc>
   <priority>0.7</priority>
-  <lastmod>2016-12-01T20:47:02+09:00</lastmod>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://kaijocomputer.github.io/production/index.html</loc>
   <priority>0.7</priority>
-  <lastmod>2016-12-01T20:47:02+09:00</lastmod>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://kaijocomputer.github.io/production/2016/howtouse.html</loc>
   <priority>0.7</priority>
-  <lastmod>2016-12-01T20:47:02+09:00</lastmod>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://kaijocomputer.github.io/blog/5_JOI_20162017_yo.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://kaijocomputer.github.io/blog/game1_2016.html</loc>
   <priority>0.6</priority>
-  <lastmod>2016-12-01T20:47:02+09:00</lastmod>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://kaijocomputer.github.io/blog/kaijofes2016.html</loc>
   <priority>0.6</priority>
-  <lastmod>2016-12-01T20:47:02+09:00</lastmod>
+  <lastmod>2016-12-19T14:58:00+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 
