@@ -3,6 +3,7 @@ document.write('<li><a href="/index.html">ホーム</a></li>');
 document.write('<li><a href="/blog/index.html">活動記</a></li>');
 document.write('<li><a href="/documents/index.html">資料</a></li>');
 document.write('<li><a href="/production/index.html">作品</a>');
+    document.write('<ul><li><a href="/production/2017/index.html">2017年度</a></li></ul>');
     document.write('<ul><li><a href="/production/2016/index.html">2016年度</a></li></ul>');
 document.write('</li>');
 document.write('<li><a href="/profile.html">コンピューター部について</a></li>');
