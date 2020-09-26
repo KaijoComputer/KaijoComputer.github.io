@@ -3,6 +3,7 @@ document.write('<li><a href="/index.html">ホーム</a></li>');
 document.write('<li><a href="/blog/index.html">活動記</a></li>');
 document.write('<li><a href="/documents/index.html">資料</a></li>');
 document.write('<li><a href="/production/index.html">作品</a><ul>');
+    document.write('<li><a href="/production/2020/index.html">2020年度</a></li>');
     document.write('<li><a href="/production/2019/index.html">2019年度</a></li>');
     document.write('<li><a href="/production/2018/index.html">2018年度</a></li>');
     document.write('<li><a href="/production/2017/index.html">2017年度</a></li>');
