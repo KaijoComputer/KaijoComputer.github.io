@@ -5,6 +5,6 @@
     transition: 0.5s;
 }
 
-.content_box :hover + .content_box article{
+.content_box:hover{
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
 }
