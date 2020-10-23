@@ -1,0 +1,10 @@
+.content_box{
+    width: 300px;
+    background-color: antiquewhite;
+    border:3px #ffdda9 solid;
+    transition: 0.5s;
+}
+
+.content_box :hover{
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
