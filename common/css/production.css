@@ -1,5 +1,5 @@
 .content_box{
-    width: 300px;
+    width: 300px !important;
     background-color: antiquewhite;
     border:3px #ffdda9 solid;
     transition: 0.5s;
