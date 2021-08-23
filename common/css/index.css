@@ -11,30 +11,22 @@ background: #CC3;
 /* メイン画像 + テキスト
 -----------------------------------------*/
 #mainImg {
-margin: 0 0 20px 0;
+margin: 0 16px 16px 16px;
 }
 #mainImg:after {
-content: "";
 display: block;
 clear: both;
 }
 *+html #mainImg {
 min-height: 1px;
 }
-#mainImg img {
-float: left;
-}
 #mainImg p {
-float: right;
-width: 180px;
-line-height: 1.6;
+    max-width: 600px;
+font-size: 1rem;
 }
 
 /* 更新履歴
 -----------------------------------------*/
-section#information > h1 {
-margin-bottom: 0px;
-}
 section#information a {
 text-decoration: none;
 }
